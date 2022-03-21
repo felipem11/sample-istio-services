@@ -1,0 +1,63 @@
+    1  pwd
+    2  c$ eval "$(ssh-agent -s)"
+    3  $ eval "$(ssh-agent -s)"
+    4  eval "$(ssh-agent -s)"
+    5  ssh-add ~/git_key.pub
+    6  ssh-add ~/git_key
+    7  ssh-add ~/git/git_key
+    8  ssh-add ~/git/git_key.pub 
+    9  ssh-add ~/.ssh/git_key
+   10  cd git 
+   11  git clone 
+   12  git clone git@github.com:felipem11/pwcCountries.git
+   13  history|grep docker
+   14  docker images ps
+   15  docker images ps
+   16  docker images ps -a
+   17  docker ps -a
+   18  docker images ls
+   19  docker images ls
+   20  cd git
+   21  git clone https://github.com/xmrig/xmrig-amd.git
+   22  cd xmrig-amd/
+   23  mkdir build
+   24  cd build/
+   25  cmake .. -G "Visual Studio 15 2017 Win64" -DXMRIG_DEPS=c:\xmrig-deps\msvc2017\x64
+   26  cmake
+   27  cmake
+   28  cd git/
+   29  ls
+   30  ls -l
+   33  ssh-add ~/.ssh/id_ed25519
+   34  eval "$(ssh-agent -s)"
+   35  ssh-add ~/.ssh/id_ed25519
+   36  ssh-add ~/.ssh/git_key
+   38  '...
+   39  istioctl manifest apply --set profile=demo
+   40  istioctl
+   41  curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.13.1 TARGET_ARCH=x86_64 sh -
+   42  curl -L https://istio.io/downloadIstio | sh -
+   43  ls -l
+   44  choco
+   45  istio
+   46  cd git
+   47  cd sample-istio-services/
+   48  istioctl manifest apply --set profile=demo
+   49  kubectl
+   50  kubectl get all
+   51  kubectl get all
+   52  istioctl manifest apply --set profile=demo
+   53  kubectl get all
+   54  cd callme-service/
+   55  skaffold dev --port-forward
+   56  choco install skaffold
+   57  skaffold dev --port-forward
+   58  skaffold dev --port-forward
+   59  mvn
+   60  echo %JAVA_HOME% 
+   61  mvn
+   62  mvn
+   63  cd git/sample-istio-services/callme-service/
+   64  skaffold dev --port-forward
+   65  history
+   66  history > ../commands1.txt

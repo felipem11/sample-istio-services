@@ -6,10 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.info.BuildProperties;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
 
 @RestController
 @RequestMapping("/caller")
@@ -26,6 +28,7 @@ public class CallerController {
 
     @GetMapping("/ping")
     public String ping() {
+        LOGGER.info("felipe1 ");
 //        LOGGER.info("Ping: name={}, version={}", buildProperties.getName(), version);
         String response = restTemplate.getForObject("http://callme-service:8080/callme/ping", String.class);
         LOGGER.info("Calling: response={}", response);

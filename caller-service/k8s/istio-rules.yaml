@@ -7,11 +7,12 @@ spec:
     istio: ingressgateway
   servers:
     - port:
-        number: 80
-        name: http
-        protocol: HTTP
+        number: 443
+        name: https
+        protocol: HTTPS
       hosts:
         - "caller.example.com"
+        - "*"
 ---
 apiVersion: networking.istio.io/v1beta1
 kind: DestinationRule
@@ -30,7 +31,8 @@ metadata:
   name: caller-service-route
 spec:
   hosts:
-    - "caller.example.com"
+#    - "caller.example.com"
+    - "*"
   gateways:
     - caller-gateway
   http:
@@ -38,4 +40,40 @@ spec:
         - destination:
             host: caller-service
             subset: v1
+#      corsPolicy:
+#        allowOrigin:
+#          - "*"
+#      corsPolicy:
+#      corsPolicy:
+#        maxAge: 1m
+#        allowCredentials: true
+#        allowHeaders:
+#          - foo
+#          - bar
+#        allowMethods:
+#          - GET
+#  http:
+#    - corsPolicy:
+#        allowHeaders:
+#          - Authorization
+#          - Content-Type
+#        allowMethods:
+#          - POST
+#          - GET
+#          - PUT
+#          - PATCH
+#          - DELETE
+#        allowOrigins:
+#          - exact: *
+#      match:
+#        - gateways:
+#            - api-gateway
+#          method:
+#            regex: GET|OPTIONS
+#          uri:
+#            regex: *
+#      route:
+#        - destination:
+#            host: caller-service
+#            subset: v1
 #      timeout: 0.5s # - to enable if using Istio fault on callme-service route

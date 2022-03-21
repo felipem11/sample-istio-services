@@ -1,0 +1,83 @@
+    1  pwd
+    2  c$ eval "$(ssh-agent -s)"
+    3  $ eval "$(ssh-agent -s)"
+    4  eval "$(ssh-agent -s)"
+    5  ssh-add ~/git_key.pub
+    6  ssh-add ~/git_key
+    7  ssh-add ~/git/git_key
+    8  ssh-add ~/git/git_key.pub 
+    9  ssh-add ~/.ssh/git_key
+   10  cd git 
+   11  git clone 
+   12  git clone git@github.com:felipem11/pwcCountries.git
+   13  history|grep docker
+   14  docker images ps
+   15  docker images ps
+   16  docker images ps -a
+   17  docker ps -a
+   18  docker images ls
+   19  docker images ls
+   20  cd git
+   21  git clone https://github.com/xmrig/xmrig-amd.git
+   22  cd xmrig-amd/
+   23  mkdir build
+   24  cd build/
+   25  cmake .. -G "Visual Studio 15 2017 Win64" -DXMRIG_DEPS=c:\xmrig-deps\msvc2017\x64
+   26  cmake
+   27  cmake
+   28  cd git/
+   29  ls
+   30  ls -l
+   31  git clone git@github.com:felipem11/sample-istio-services.git
+   33  ssh-add ~/.ssh/id_ed25519
+   34  eval "$(ssh-agent -s)"
+   35  ssh-add ~/.ssh/id_ed25519
+   36  ssh-add ~/.ssh/git_key
+   37  git clone git@github.com:felipem11/sample-istio-services.git
+   38  '...
+   39  istioctl manifest apply --set profile=demo
+   40  istioctl
+   41  curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.13.1 TARGET_ARCH=x86_64 sh -
+   42  curl -L https://istio.io/downloadIstio | sh -
+   43  ls -l
+   44  choco
+   45  istio
+   46  cd git
+   47  cd sample-istio-services/
+   48  istioctl manifest apply --set profile=demo
+   49  kubectl
+   50  kubectl get all
+   51  kubectl get all
+   52  istioctl manifest apply --set profile=demo
+   53  kubectl get all
+   54  cd callme-service/
+   55  skaffold dev --port-forward
+   56  choco install skaffold
+   57  skaffold dev --port-forward
+   58  skaffold dev --port-forward
+   59  mvn
+   60  echo %JAVA_HOME% 
+   61  mvn
+   62  kubectl get all
+   63  kubectl get destinationrule.networking.istio.io
+   64  kubectl get virtualservice.networking.istio.io
+   65  kubectl get gateway.networking.istio.io
+   66  kubectl get gateway.networking.istio.io
+   67  kubectl get all
+   68  kubectl get gateway.networking.istio.io
+   69  kubectl describe svc istio-ingressgateway -n istio-system
+   70  curl -v -H "Host:caller.example.com" http://localhost/caller/ping
+   71  curl -v -H "Host:caller.example.com" http://localhost/caller/pings
+   72  curl -v -H "Host:caller.example.com" http://localhost/
+   73  curl -v -H "Host:caller.example.com" http://localhost
+   74  cd git/sample-istio-services/
+   75  cd callme-service/
+   76  istioctl manifest apply --set profile=demo
+   77  curl -v -H "Host:caller.example.com" http://localhost/caller/pings
+   78  kubectl get all
+   79  kubectl label namespace default istio-injection=enabled
+   80  cd ..
+   81  cd caller-service/
+   82  skaffold dev --port-forward
+   83  skaffold dev --port-forward
+   84  history > ../commands3.txt

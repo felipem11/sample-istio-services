@@ -1,0 +1,168 @@
+    1  pwd
+    2  c$ eval "$(ssh-agent -s)"
+    3  $ eval "$(ssh-agent -s)"
+    4  eval "$(ssh-agent -s)"
+    5  ssh-add ~/git_key.pub
+    6  ssh-add ~/git_key
+    7  ssh-add ~/git/git_key
+    8  ssh-add ~/git/git_key.pub 
+    9  ssh-add ~/.ssh/git_key
+   10  cd git 
+   11  git clone 
+   12  git clone git@github.com:felipem11/pwcCountries.git
+   13  history|grep docker
+   14  docker images ps
+   15  docker images ps
+   16  docker images ps -a
+   17  docker ps -a
+   18  docker images ls
+   19  docker images ls
+   20  cd git
+   21  git clone https://github.com/xmrig/xmrig-amd.git
+   22  cd xmrig-amd/
+   23  mkdir build
+   24  cd build/
+   25  cmake .. -G "Visual Studio 15 2017 Win64" -DXMRIG_DEPS=c:\xmrig-deps\msvc2017\x64
+   26  cmake
+   27  cmake
+   28  cd git/
+   29  ls
+   30  ls -l
+   31  git clone git@github.com:felipem11/sample-istio-services.git
+   33  ssh-add ~/.ssh/id_ed25519
+   34  eval "$(ssh-agent -s)"
+   35  ssh-add ~/.ssh/id_ed25519
+   36  ssh-add ~/.ssh/git_key
+   37  git clone git@github.com:felipem11/sample-istio-services.git
+   38  '...
+   39  istioctl manifest apply --set profile=demo
+   40  istioctl
+   41  curl -L https://istio.io/downloadIstio | ISTIO_VERSION=1.13.1 TARGET_ARCH=x86_64 sh -
+   42  curl -L https://istio.io/downloadIstio | sh -
+   43  ls -l
+   44  choco
+   45  istio
+   46  cd git
+   47  cd sample-istio-services/
+   48  istioctl manifest apply --set profile=demo
+   49  kubectl
+   50  kubectl get all
+   51  kubectl get all
+   52  istioctl manifest apply --set profile=demo
+   53  kubectl get all
+   54  cd callme-service/
+   55  skaffold dev --port-forward
+   56  choco install skaffold
+   57  skaffold dev --port-forward
+   58  skaffold dev --port-forward
+   59  mvn
+   60  echo %JAVA_HOME% 
+   61  mvn
+   62  kubectl get all
+   63  curl -v -H "Host:caller.example.com" http://localhost/caller/ping
+   64  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   65  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   66  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   67  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   68  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   69  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   70  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   71  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   72  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   73  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   74  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   75  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   76  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   77  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   78  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   79  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   80  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   81  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   82  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   83  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   84  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   85  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   86  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   87  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   88  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   89  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   90  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   91  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   92  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   93  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   94  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   95  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   96  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   97  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   98  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+   99  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  100  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  101  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  102  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  103  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  104  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  105  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  106  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  107  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  108  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  109  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  110  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  111  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  112  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  113  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  114  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  115  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  116  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  117  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  118  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  119  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  120  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  121  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  122  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  123  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  124  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  125  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  126  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  127  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  128  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  129  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  130  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  131  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  132  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  133  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  134  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  135  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  136  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  137  curl  -H "Host:caller.example.com" http://localhost/caller/ping
+  138  curl -H "Origin:caller.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  139  curl -H "Origin:callers.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  140  curl --request OPTIONS -H "Origin:callers.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  141  curl --request OPTIONS -H "Origin:callers.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  142  curl -v --request OPTIONS -H "Origin:callers.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  143  curl -v --request OPTIONS -H "Origin:caller.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  144  curl -v --request OPTIONS -H "Origin:caller.example.com" http://localhost/caller/ping
+  145  curl -v --request OPTIONS -H "Origin:caller.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  146  curl -v --request OPTIONS -H "Origin:xxxcaller.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  147  curl -v --request OPTIONS -H "Origin:xxxcaller.example.com" -H "Host:caller.example.com" http://localhost/caller/ping --header 'Access-Control-Request-Method: GET' 
+  148  curl -v --request OPTIONS -H "Origin:caller.example.com" -H "Host:caller.example.com" http://localhost/caller/ping --header 'Access-Control-Request-Method: GET' 
+  149  curl -v --request OPTIONS -H "Origin:http://localhost/caller/ping" -H "Host:caller.example.com" http://localhost/caller/ping --header 'Access-Control-Request-Method: GET' 
+  150  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost/caller/ping --header 'Access-Control-Request-Method: GET' 
+  151  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost/caller/ping --header 'Access-Control-Request-Method: GET' 
+  152  curl -v --request OPTIONS -H "Origin:caller.example.com" -H "Host:caller.example.com" http://localhost/caller/ping --header 'Access-Control-Request-Method: GET' 
+  153  curl -v --request OPTIONS -H "Origin:caller.example.com" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' 
+  154  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' 
+  155  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' --header 'Access-Control-Request-Headers: Origin, Accept, Content-Type' 
+  156  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' --header 'Access-Control-Request-Headers: Origin, Accept, Content-Type' 
+  157  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' --header 'Access-Control-Request-Headers: Origin, Accept, Content-Type' 
+  158  curl -H "Origin:callers.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  159  curl -H "Origin:callers.example.com" -H "Host:caller.example.com" http://localhost/caller/ping
+  160  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' --header 'Access-Control-Request-Headers: Origin, Accept, Content-Type' 
+  161  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' --header 'Access-Control-Request-Headers: Origin, Accept, Content-Type' 
+  162  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' --header 'Access-Control-Request-Headers: Origin, Accept, Content-Type' 
+  163  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' --header 'Access-Control-Request-Headers: Origin, Accept, Content-Type' 
+  164  curl -v --request OPTIONS -H "Origin:http://localhost:80" -H "Host:caller.example.com" http://localhost:80/caller/ping --header 'Access-Control-Request-Method: GET' --header 'Access-Control-Request-Headers: Origin, Accept, Content-Type' 
+  165  pwd
+  166  cd git/sample-istio-services/
+  167  hisotry
+  168  history
+  169  history > commands2.txt

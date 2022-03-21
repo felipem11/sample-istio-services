@@ -6,3 +6,6 @@ In this project I'm demonstrating you the most interesting features of [Istio](h
 Currently you may find examples of two Spring Boot applications that may be deployed on Kubernetes. The application caller-service is calling callme-service using Istio rules.
 1. The older article about it has been published in 2018, and based on Istio in version 0.8. The example has been moved to the branch [old_master](https://github.com/piomin/sample-istio-services/tree/old_master). Detailed description can be found here: [Service Mesh with Istio on Kubernetes in 5 steps](https://piotrminkowski.com/2018/04/13/service-mesh-with-istio-on-kubernetes-in-5-steps/)
 2. The latest example is based on Istio 1.5 and Spring Boot 2.2. The example is available in the branch [master](https://github.com/piomin/sample-istio-services/tree/master). Currently I'm working on the article on my blog - it will be published soon.
+
+https://piotrminkowski.com/2020/06/01/service-mesh-on-kubernetes-with-istio-and-spring-boot/
+curl -v -H "Host:caller.example.com" http://localhost/caller/ping

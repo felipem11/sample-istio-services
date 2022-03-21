@@ -13,4 +13,5 @@
 #    - to:
 #      - operation:
 #          methods:
-#            - POST
+#            - GET
+#            - PUT
